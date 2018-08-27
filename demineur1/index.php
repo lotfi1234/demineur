@@ -70,7 +70,7 @@ else if(isset($_POST['submit'])) {
 <script href="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
 
   <div class="container">
-<form method="post" action="Index.php" name="form1" >
+<form method="post" action="index.php" name="form1" >
   <div class="row col-sm-12" style="padding-top: 40px;" id="allo1">
 
     <div class="col-sm-4" style=" border: 2px solid #C0C0C0;box-shadow:3px 4px 2px #c8cdd1;background: #F5F5F5;border-style:groove;padding-top: 20px;margin-left: 20px;">
@@ -91,7 +91,7 @@ else if(isset($_POST['submit'])) {
 
 
 <div  class="col-sm-5" style=" border: 2px solid #C0C0C0;box-shadow:3px 4px 1px #c8cdd1;background: #F5F5F5;border-style:groove;padding-top: 30px;padding-bottom: 20px;" id="allo">
-<form method="post" action="Index.php" name="form2">
+<form method="post" action="index.php" name="form2">
   <h2 align="center"> Please register:</h2><br>
 <label>UserName:</label>
 <input type="text" name="username1" class="form-control" required placeholder="UserName"/><br>
